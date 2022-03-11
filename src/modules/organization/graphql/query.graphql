@@ -1,0 +1,9 @@
+query GetOrganization($id: Int!) {
+  organizations_by_pk(id: $id) {
+    id
+    name
+    deleted_at
+    updated_at
+    created_at
+  }
+}
